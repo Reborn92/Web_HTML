@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    color: #343132;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #f2f2f2f2;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*header*/
+.header .container{
+    padding: 25px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 60px;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: right;
+    width: 70%;
+}
+.logo a{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #343132;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    float: left;
+    margin-left: 35px;
+    color: #d4d4d4;
+}
+.menu li:first-child{
+    list-style: none;
+}
+.menu li:last-child{
+
+}
+.menu li:nth-child(odd){
+
+}
+.menu li:nth-child(even){
+
+}
+.menu li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #d4d4d4;
+    transition: all 150ms;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu li a:hover{
+    color: #343132;
+}
+/*a{*/
+/*  color: red !important; - the importtant la danh uu tien mac du truoc do the me cua no da khai bao*/
+/*}*/
+
+.content{
+    float: left;
+    width: 66.67%;
+    padding-right: 15px;
+}
+.sizebar{
+    float: right;
+    width: 33.33%;
+    padding-left: 15px;
+}
+.content .tweet{
+    background-image: url(https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-600w-407021107.jpg);
+    background-size: cover;
+    float: left;
+    width: 100%;
+}
+.content .tweet-content{
+    background-color: #ff253a95;
+    float: left;
+    width: 100%;
+    padding: 30px;
+    /*margin-bottom: 15px;*/
+}
+.tweet h2{
+    font-size: 20px;
+    color: #ffffff;
+}
+.tweet p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.content .post{
+    background-color: #ffffff;
+    float: left;
+    width: 100%;
+    padding-left: 30px;
+    color: #343132;
+    line-height: 2;
+    margin: 30px 15px 15px 0;
+}
+.post h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.post ul li{
+    float: left;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 10px;
+    list-style: none;
+}
+.post p{
+    font-size: 16px;
+}
+.post .post-readmore{
+    background-color: #f37a5d;
+    float: left;
+    padding: 5px 15px;
+}
+.post-readmore p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sizebar .recent-post{
+    background-color: #ffffff;
+    padding: 30px;
+}
+.recent-post h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.recent-post img{
+    width: 60px;
+    height: 60px;
+    background-color: #e1dfd9 ;
+    float: left;
+    margin-right: 15px;
+}
+.recent-post li{
+    list-style: none;
+    float: left;
+    margin-bottom: 30px;
+}
+.Categories{
+    float: left;
+    background-color: #ffffff;
+    padding-left: 30px;
+    width: 100%;
+}
+.Categories h2{
+    font-weight: 600;
+    margin: 30px 0;
+}
+.Categories li{
+    list-style: none;
+    margin-bottom: 30px;
+    text-align: left;
+}
