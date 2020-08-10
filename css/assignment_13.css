@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    color: #f4f4f4;
+    background-color: #ffffff;
+}
+.section {
+    float: left;
+    width: 100%;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.nen {
+    float: left;
+    background-image: url("../imgs/Cloud.jpg");
+
+}
+.area {
+    float: left;
+    background-color: rgba(212, 212, 212, 0.5);
+    padding: 25px 15px;
+    margin: 15px;
+    border: 1px solid #57899c;
+    border-radius: 7px;
+}
+.top {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+
+}
+.left {
+    clear: both;
+    padding-top: 10px;
+    float: left;
+    width: 55%;
+    line-height: 1.5;
+    font-size: 12px;
+}
+#avatar {
+    font-size: 30px;
+    font-weight: 500;
+}
+.right {
+    width: 45%;
+    float: right;
+}
+.right img{
+    width: 80px;
+    height: auto;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 13</title>
+    <link rel="stylesheet" type="text/css" href="css/assignment_13.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="nen">
+                <div class="area">
+                    <div class="top">
+                        <p id="time"></p>
+                    </div>
+                    <div class="left">
+                        <p id="avatar"></p>
+                        <p id="description"></p>
+                    </div>
+                    <div class="right">
+                        <img src="imgs/04n@2x.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="JS/jQuery.js"></script>
+    <script type="text/javascript">
+        $.ajax({
+            url:"http://api.openweathermap.org/data/2.5/forecast?",
+            menthod: "GET",
+            data:{
+                q:"Hanoi,vietnam",
+                appid: "09a71427c59d38d6a34f89b47d75975c",
+                units: "metric"
+            },
+            success: function (rs){
+                for (var e of rs.list){
+                    $("#time").text(rs.dt_txt);
+                    $("#avatar").html(rs.main.temp+"<sup>o</sup>C");
+                    for (var i of e.weather){
+                        $("#description").append("<p>"+i.description+"</p>");
+                    }
+                }
+            }
+        })
+    </script>
+
+</body>
+</html>

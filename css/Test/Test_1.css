@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    color: #343132;
+    background-color: #ffffff;
+}
+.section {
+    float: left;
+    width: 100%;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.top {
+
+    float: left;
+    width: 100%;
+    background-color: #013ea5;
+    color: #fffffc;
+    padding: 5px 0;
+}
+.top .slogan {
+    float: left;
+    width: 70%;
+}
+.hotline {
+    float: right;
+    width: 30%;
+}
+.menu-bar {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    color: #0f0f0f;
+    padding: 15px 5px;
+}
+.logo{
+    width: 16.67%;
+    float: left;
+}
+.logo img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.menu {
+    float: left;
+    width: 66.67%;
+}
+.menu ul li{
+    float: left;
+
+}

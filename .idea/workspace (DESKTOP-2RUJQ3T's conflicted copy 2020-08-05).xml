@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56c050e2-4401-4b95-86d9-2a544cbd4423" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment_14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_JS_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_JS_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_JS_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_Jquery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_bootstrap_js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dong_ho.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Demo_JS_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lap_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/answers/Assignment_13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Answers/Assignment_13.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Assignment_10.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Demo_event.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Demo_form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Lap_11.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/demo_bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/dong_ho.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/laps10.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/laps7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fptshop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/products/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/products/cap-sac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/products/dien-thoai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/products/laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/products/loa-nghe-nhac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/products/may-in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/products/may-tinh-de-ban.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/products/op-lung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/products/smart-watch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/products/tablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/products/tai-nghe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/products/the-nho.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lap_s7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap_3.3.7/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assigment_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Assignment_5.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Assignment_5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Demo_layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Demo_layout.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eOwekcb8kY7UcyryB2xKgvWD1s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Dropbox\Bai_tap\Web_HTML\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56c050e2-4401-4b95-86d9-2a544cbd4423" name="Default Changelist" comment="" />
+      <created>1594206044978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594206044978</updated>
+      <workItem from="1594206048927" duration="11520000" />
+      <workItem from="1594261352220" duration="11001000" />
+      <workItem from="1594363955540" duration="6593000" />
+      <workItem from="1594372772229" duration="2254000" />
+      <workItem from="1594378206131" duration="1575000" />
+      <workItem from="1594379983317" duration="11000" />
+      <workItem from="1594380023625" duration="11000" />
+      <workItem from="1594380058489" duration="1173000" />
+      <workItem from="1594382385194" duration="906000" />
+      <workItem from="1594385861154" duration="150000" />
+      <workItem from="1594638523651" duration="49000" />
+      <workItem from="1594638633768" duration="9857000" />
+      <workItem from="1594810810930" duration="9946000" />
+      <workItem from="1594983780194" duration="11400000" />
+      <workItem from="1595242511248" duration="11696000" />
+      <workItem from="1595410166338" duration="1924000" />
+      <workItem from="1595416105464" duration="697000" />
+      <workItem from="1595416876698" duration="9558000" />
+      <workItem from="1595577994076" duration="255000" />
+      <workItem from="1595578271506" duration="4483000" />
+      <workItem from="1595588132682" duration="4174000" />
+      <workItem from="1595592687391" duration="6376000" />
+      <workItem from="1595839112598" duration="4129000" />
+      <workItem from="1595847466021" duration="1184000" />
+      <workItem from="1595848754688" duration="7964000" />
+      <workItem from="1595859500521" duration="102000" />
+      <workItem from="1596015478851" duration="2982000" />
+      <workItem from="1596022073744" duration="7987000" />
+      <workItem from="1596186993746" duration="1253000" />
+      <workItem from="1596232313498" duration="3066000" />
+      <workItem from="1596403098127" duration="166000" />
+      <workItem from="1596403501380" duration="936000" />
+      <workItem from="1596429842187" duration="887000" />
+      <workItem from="1596439569892" duration="2061000" />
+      <workItem from="1596510925411" duration="555000" />
+      <workItem from="1596577704344" duration="4992000" />
+      <workItem from="1596616238761" duration="3996000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Web_HTML" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="568" y="227" key="#Notifications" timestamp="1595244081392">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="568" y="227" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1595244081392" />
+    <state x="752" y="378" key="#Scopes" timestamp="1594265308351">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="378" key="#Scopes/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1594265308351" />
+    <state x="649" y="151" key="FileChooserDialogImpl" timestamp="1596511476466">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594381273096" />
+    <state x="649" y="151" key="FileChooserDialogImpl/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1596511476466" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1594639350892">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594639350892" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1595841533196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1595841533196" />
+    <state x="692" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596579737454">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1595424647667" />
+    <state x="692" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1596579737454" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1595425874404">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1595425874404" />
+    <state x="443" y="158" width="672" height="475" key="search.everywhere.popup" timestamp="1596024673173">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="443" y="158" width="672" height="475" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596024673173" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1594373671932" />
+  </component>
+</project>
