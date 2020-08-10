@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    color: #000000;
+
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container {
+    width: 800px;
+    margin: 50px auto;
+    padding-left: 20px;
+}
+.nav {
+    float: left;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+.nav li{
+    float: left;
+    list-style: none;
+}
+.nav li a{
+    float: left;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333333;
+}
+.nav li a.active,.nav li a.active:hover {
+    border: 1px solid #d9d9d9;
+    border-bottom-color: white;
+    background-color: #fafafa;
+    border-radius: 5px 5px 0 0;
+}
+.tab-content{
+    float: left;
+    width: 100%;
+}
+.tab-content .tab{
+    float: left;
+    width: 100%;
+    padding: 20px;
+    display: none;
+}
+.tab-content .tab.active{
+
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clock</title>
+</head>
+<body>
+    nhap phut<input type="number" name="phut"/><br/>
+    nhap giay<input type="number" name="giay"/><br/>
+    <button type="button" onclick="run()">Run</button><br/><br/>
+    <h1><span class="min">00</span>:<span class="sec">00</span></h1>
+    <script type="text/javascript" src="JS/jQuery.js"></script>
+    <script type="text/javascript">
+        // var min = 10; sec = 0;
+        function run() {
+            var min = $("input[name=phut]").val()
+            var sec = $("input[name=giay]").val()
+            min = parseInt(min);
+            sec = parseInt(sec);
+            min = isNaN(min) ? 0 : min;
+            sec = isNaN(sec) ? 0 : sec;
+            clearInterval(timer)
+            var timer = setInterval(function () {
+                var m = $(".min");
+                var n = $(".sec");
+                m.text(min < 10 ? "0" + min : min);
+                n.text(sec < 10 ? "0" + sec : sec);
+                sec--;
+                if (sec < 0) {
+                    min--;
+                    sec = 59;
+                }
+                if (min < 0) clearInterval(timer);
+            }, 10);
+        }
+
+    </script>
+
+</body>
+</html>

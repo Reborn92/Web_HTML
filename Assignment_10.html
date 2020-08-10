@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 10</title>
+    <link rel="stylesheet" href="libs/fontawesome/css/all.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/Assignment_10.css"/>
+</head>
+<body>
+    <header class="section">
+        <div class="container">
+            <div id="cats">
+<!--                <div class="box">-->
+<!--                    <div class="image">-->
+<!--                        <a href="#"><img src="imgs/Assignment_10/product-1.jpg" alt=""/></a>-->
+<!--                    </div>-->
+<!--                    <div class="right">-->
+<!--                        <p class="right-top">Graphic Corner</p>-->
+<!--                        <h1> Fila Locker Room Varsity Jacket</h1>-->
+<!--                        <ul class="star">-->
+<!--                            <li><i class="fas fa-star"></i></li>-->
+<!--                            <li><i class="fas fa-star"></i></li>-->
+<!--                            <li><i class="fas fa-star"></i></li>-->
+<!--                            <li><i class="fas fa-star"></i></li>-->
+<!--                            <li><i class="fas fa-star"></i></li>-->
+<!--                        </ul>-->
+<!--                        <p class="price"><i class="fas fa-euro-sign"></i> 9.90</p>-->
+<!--                        <p>Create a cool and sporty look with the FILA® Locker Room Varsity Jacket.</p>-->
+<!--                        <p>Comfortable cotton-blend fabrication.</p>-->
+<!--                        <p>Classic varsity jacket features brand details throughout.</p>-->
+<!--                        <p>Flat knit collar.</p>-->
+<!--                        <p class="availablity">Availability: <span>299 In Stock</span></p>-->
+<!--                            <ul class="cart">-->
+<!--                                <li class="add-cart"><a href="#">ADD TO CART</a></li>-->
+<!--                                <li><a href="#"><i class="fas fa-random"></i></a></li>-->
+<!--                                <li><a href="#"><i class="far fa-heart"></i></a></li>-->
+<!--                            </ul>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </header>
+    <script type="text/javascript">
+        var cats = [
+            {
+                image : "imgs/Assignment_10/product-1.jpg",
+                text : "Graphic Corner",
+                price : "9.90",
+                p1 : "Fila Locker Room Varsity Jacket",
+                p2 : "Create a cool and sporty look with the FILA® Locker Room Varsity Jacket.",
+                p3 : "Comfortable cotton-blend fabrication.",
+                p4 : "Classic varsity jacket features brand details throughout.",
+                p5: "Flat knit collar.",
+                availability: "299 InStock",
+            },
+            {
+                image : "imgs/Assignment_10/product-2.jpg",
+                text : "Graphic Corner",
+                price : "18.90",
+                p1 : "Juicy Couture Tricot Logo Stripe Jacket",
+                p2 : "Freshen up your look with the Juicy Couture™ Tricot Logo Stripe Jacket.",
+                p3 : "Polyester fabrication flaunts stripe and brand logo detail at sleeves.",
+                p4 : "Stand collar.",
+                p5: "Front-zipper closure.",
+                availability: " 300 In Stock",
+            },
+            {
+                image : "imgs/Assignment_10/product-3.jpg",
+                text : "STUDIO DESIGN",
+                price : "18.90",
+                p1 : "New Balance Fresh Foam LAZR v1 Sport",
+                p2 : "The New Balance® Fresh Foam LAZR v1 Sport running shoe gives you total focus on the road with its precision-engineered design.",
+                p3 : "Predecessor: None.",
+                p4 : "Support Type: Neutral.",
+                P5 : "Flat knit collar.",
+                availability: "300 In Stock",
+            },
+            {
+                image : "imgs/Assignment_10/product-4.jpg",
+                text : "GRAPHIC CORNER",
+                price : "18.90",
+                p1 : "Juicy Couture Solid Sleeve Puffer Jacket",
+                p2 : "Stay toasty with this Juicy Couture™ Solid Sleeve Puffer Jacket!",
+                p3 : "Stand collar.",
+                p4 : "Long sleeves.",
+                p5 : "100% polyester;",
+                availability: "299 In Stock",
+            },
+            ]
+        cats.map(function (c){
+            var a_html = "  <div class=\"box\">\n" +
+                "                    <div class=\"image\">\n" +
+                "                        <a href=\"#\"><img src=\""+c.image+"\" alt=\"\"/></a>\n" +
+                "                    </div>\n" +
+                "                    <div class=\"right\">\n" +
+                "                        <p class=\"right-top\">"+c.text+"</p>\n" +
+                // "                        <h1>"+c.p1+""</h1>\n" +
+                "                        <ul class=\"star\">\n" +
+                "                            <li><i class=\"fas fa-star\"></i></li>\n" +
+                "                            <li><i class=\"fas fa-star\"></i></li>\n" +
+                "                            <li><i class=\"fas fa-star\"></i></li>\n" +
+                "                            <li><i class=\"fas fa-star\"></i></li>\n" +
+                "                            <li><i class=\"fas fa-star\"></i></li>\n" +
+                "                        </ul>\n" +
+                "                        <p class=\"price\"><i class=\"fas fa-euro-sign\"></i> "+c.price+"</p>\n" +
+                "                        <p>"+c.p2+"</p>\n" +
+                "                        <p>"+c.p3+"</p>\n" +
+                "                        <p>"+c.p4+"</p>\n" +
+                "                        <p>"+c.p5+"</p>\n" +
+                "                        <p class=\"availablity\">Availability: <span>"+c.availability+"</span></p>\n" +
+                "                            <ul class=\"cart\">\n" +
+                "                                <li class=\"add-cart\"><a href=\"#\">ADD TO CART</a></li>\n" +
+                "                                <li><a href=\"#\"><i class=\"fas fa-random\"></i></a></li>\n" +
+                "                                <li><a href=\"#\"><i class=\"far fa-heart\"></i></a></li>\n" +
+                "                            </ul>\n" +
+                "                    </div>\n" +
+                "                </div>"
+            document.getElementById("cats").innerHTML += a_html;
+        })
+    </script>
+
+</body>
+</html>

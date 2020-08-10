@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo JS</title>
+</head>
+<body>
+    <h1 id="abc">Demo JS with class tag</h1>
+    <p class="pg">GS Nguyễn Thanh Long cho biết, suốt nửa năm qua, cả thế giới căng mình chống dịch Covid-19. Đến nay, số ca mắc bệnh trên thế giới đã vượt mốc 15 triệu với trên 600.000 người tử vong. Đại dịch chưa có dấu hiệu dừng lại, chưa có nước nào ngăn chặn thành công.</p>
+    <p class="pg">Vì vậy, sản xuất vắc xin là ưu tiên của tất cả các quốc gia, viện nghiên cứu, nhà sản xuất với hy vọng có thể ngăn chặn, khống chế, kiểm soát dịch bệnh và đưa cuộc sống trở về bình thường.</p>
+    <p>Với Việt Nam, dù đã có những thành công bước đầu trong chống dịch nhưng GS Long nhìn nhận, nếu không có vắc xin, giao lưu đi lại và thương mại cũng sẽ không trở về bình thường.</p>
+    <script type="text/javascript">
+        var h = document.getElementById("abc");
+        var p = document.getElementsByClassName("pg");
+        h.style.textTransform = "uppercase";
+        for(var i=0; i<p.length;i++){
+            p[i].style.color = "red";
+        }
+        var p2 = document.getElementsByTagName("p");
+        for(var e of p2){
+            e.style.color = "green";
+        }
+        var p3 = document.getElementsByTagName("h1");
+        for(var e of p3){
+            e.style.textTransform = "none";
+        }
+        var a = document.get
+        var p4 = document.querySelectorAll("p.pg");
+        console.log(p4);
+        var p5 = document.querySelectorAll("#abc");
+        console.log(p5);
+        var ip = document.querySelectorAll("input[type=text"); // 2 thang duoi nay dung khi k muon them id, class
+        var ip2 = document.querySelectorAll("input[name=email"); // Dung nhieu trong Jquery
+        var body = document.body;  // do chi co 1 body
+        console.log(body);
+        var head = document.head;
+        var title = document.title;
+        var links = document.links;  // lay tat car cac link trong trang web
+        console.log(links);
+        var image = document.images;
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.a{
+    float: left;
+    width: 100%;
+}
+.b,.c,.d {
+    background-color: red;
+}
+.box {
+    float: left;
+    /*width: 100%;*/
+    background-color: #ffffff;
+}

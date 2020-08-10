@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đồng hồ treo tường</title>
+    <link rel="stylesheet" type="text/css" href="css/dong_ho.css"/>
+</head>
+<body>
+    <header class="section">
+        <div class="container">
+            <ul class="dong_ho">
+                <li id="gio"></li>
+                <li id="phut"></li>
+            </ul>
+            <script type="text/javascript" src="JS/jQuery.js"></script>
+            <script type="text/javascript">
+                var timer = setInterval(function () {
+                    var hour = 0;
+                    var min = 0;
+                    var sec =0;
+                    var gio = $("#gio");
+                    var phut = $("#phut");
+                    gio.css({"transform" : "rotate("+(m*6)+"deg)"});
+                    phut.css("transform" , "rotate("+(m*60)+"deg)");
+                    m++;
+                    if(m == 60){
+                        m = 1;
+                    }
+                }, 10);
+            </script>
+        </div>
+    </header>
+</body>
+</html>

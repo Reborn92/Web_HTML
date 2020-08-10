@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html8 lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS and HTML</title>
+</head>
+<body>
+    <h1 id="title" class="abc"> Đây là tiêu đề 1 bài báo</h1>
+    <p id="content">
+        Nổi tiếng toàn cầu gần 20 năm nay, dòng túi Goyard Saigon của Pháp trở thành biểu tượng của người xài hàng hiệu không thích phô trương.
+        Cựu hậu vệ Man Utd, Paul Parker chỉ trích việc đội bóng cũ chưa thể lọt vào Top 4 trong bối cảnh Ngoại hạng Anh
+   .Urumqi, thủ phủ vùng Tân Cương của Trung Quốc, bất ngờ bị phong tỏa do các ca nhiễm mới trong cộng đồng sau 149 ngày "sạch bóng" Covid-19.
+    <script type="text/javascript">
+        var obj = {
+            name: "Nguyễn Thị Na",
+            age: 18,
+            tel: "0912041233",
+            adress: "so 8 Nguyen Trai",
+            chay: function () {
+                console.log("Ky Duyen dang chay...");
+            }
+        }
+        console.log("ten cua ban : "+ obj.name);
+        obj.chay();
+        obj.name = "Nguyen Thi Ki Duyen";
+        console.log(obj.name + " tel: " + obj.tel);
+        obj.chay();
+
+        var obj2 = {
+            name: "Nguyễn Van A",
+            age: 18,
+            tel: "0912041233",
+            child: {
+                child_name: "Nguyen Van Troi",
+                dibo: function (){
+                    console.log(this.childname + "đang đi bộ ...");
+                }
+            },
+            chay: function () {
+                console.log(this.name +" dang chay..." +this.child.child_name);
+                return this;
+            },
+             eat: function() {
+            console.log(this.name + "dang an...)");
+            return this;
+        }
+        }
+        obj2.chay();
+        obj2.chay().eat().chay();
+
+
+        var sinhvien = {
+            name: "Lê Đức Anh",
+            MSSV: "2005012",
+            tel: "0912041233",
+            adress: "7BT6 Phap Van",
+            ghen: function () {
+                console.log(this.name + "dang ghen...");
+                return this;
+            },
+            dichoi: function () {
+                console.log(this.name + "dang di choi ..");
+                return this;
+
+            },
+            girlfriend: {
+                name: "Reborn",
+                tel: "0916601963",
+                adress: "abc",
+                nhantin: function () {
+                    console.log(this.name + "dang nhan tin...");
+                    return this;
+                },
+                trangdiem: function () {
+                    console.log(this.name + "dang trang diem...");
+                    return this;
+                },
+                vetinh: [
+                    {
+                        name: "Nguyen Van Tien",
+                        tel: "09963966318",
+                        adress: "Tran Duy Hung",
+                        loaixe: "SH",
+                        muaqua: function () {
+                            console.log(this.name + "dang mua qua ...");
+                            return this;
+                        }
+                    },
+                    {
+                        name:"Nguyen Van Duong",
+                        tel: "0983966318",
+                        adress: "Ho Tay",
+                        loaixe: "vision",
+                        muaqua: function () {
+                            console.log(this.name + "dang mua qua...");
+                            return this;
+                        }
+                    },
+                    {
+                        name:"Nguyen Quoc Khanh",
+                        tel: "0983966388",
+                        adress: "Moc Chau",
+                        loaixe: "airblade",
+                        muaqua: function () {
+                            console.log(this.name + "dang mua qua...");
+                            return this;
+                        }
+                    },
+                    {
+                        name:"Nguyen Van Duong",
+                        tel: "098399638",
+                        adress: "My Dinh",
+                        loaixe: "Exciter",
+                        muaqua: function () {
+                            console.log(this.name + "dang mua qua...");
+                            return this;
+                        }
+                    },
+                ]
+            }
+        }
+        sinhvien.dichoi().ghen();
+        sinhvien.girlfriend.nhantin().trangdiem();
+        sinhvien.girlfriend.vetinh[1].muaqua();
+
+    // tao cac doi tuong DOM element de tac dong tu JS vao HTML
+    var h = document.getElementById("title");
+    // console.log(h);
+        console.log(h.innerText);
+        h.innerText = sinhvien.name;
+        console.log(h.innerHTML);
+        h.innerHTML = "<b><i><u>" + sinhvien.name +"</u></i></b>";
+        // h.innerText = "<b><i><u>WWWWWTTTTFFFF</u></i></b>";
+        h.style.color = "red";
+        h.style.fontSize = "50px";
+        h.style.backgroundColor = "green";
+        h.classList.add("t2005e");
+        h.classList.remove("abc");
+
+    </script>
+    </p>
+</body>
+</html8>

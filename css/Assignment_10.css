@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 12px;
+    color: #343132;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #ffffff;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.box {
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    margin: 0 15px;
+    border-radius: 5px;
+    overflow: auto;
+}
+.image {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    padding: 0 15px;
+}
+.right{
+    line-height: 1.5;
+    color: #b29999;
+    float: right;
+    width: 66.67%;
+    padding: 15px 15px 10px;
+}
+.right p{
+    padding: 5px 0;
+    color: #666;
+}
+.right h1{
+    color: #343132;
+    font-size: 14px;
+    font-weight: 700;
+}
+.star{
+    width: 100%;
+    float: left;
+}
+.star li{
+    float: left;
+    color: #fdd835;
+    list-style: none;
+    margin: 15px 0;
+}
+.price{
+    margin-bottom: 20px;
+}
+.availablity{
+    margin: 15px 0;
+}
+.right p span{
+    color: #6ab88d;
+}
+.cart{
+    float: left;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.cart li{
+    float: left;
+    list-style: none;
+    padding: 0 5px;
+}
+.cart li a{
+    /*text-decoration: none;*/
+    color: #253237;
+}
+.cart li a i{
+    text-decoration: none;
+}
+.add-cart {
+    margin-right: 30px;
+}
+
+

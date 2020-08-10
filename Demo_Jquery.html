@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo jquery</title>
+</head>
+<body>
+    <input type="number" name="minute" /><br/><br/>
+    <button type="button" onclick="boxOn()">On</button>
+    <button type="button" onclick="boxOff()">Off</button>
+    <button type="button" onclick="onOff()">Toggle</button>
+    <button type="button" onclick="move()">Move</button>
+    <div class="box">
+        <h1 id="heading">Tiêu đề jQuery</h1>
+        <h2>Tác giả: jQuery</h2>
+        <p class="pg">Ông nói đúng y như lòng tui luôn. Tui thấy khổ sở vô cùng khi nhìn mọi người hạnh phúc, năng nổ và nhiều hơn nữa trên mạng xã hội, điều khiến tôi càng ghét bản thân hơn. Vậy nên tôi ngưng check mạng xã hội 2 tháng trước rồi, và hạn chế bản thân chỉ dùng PM để kết nối với bạn bè thôi.</p>
+        <p class="pg">Ông nói đúng y như lòng tui luôn. Tui thấy khổ sở vô cùng khi nhìn mọi người hạnh phúc, năng nổ và nhiều hơn nữa trên mạng xã hội, điều khiến tôi càng ghét bản thân hơn. Vậy nên tôi ngưng check mạng xã hội 2 tháng trước rồi, và hạn chế bản thân chỉ dùng PM để kết nối với bạn bè thôi.</p>
+    </div>
+
+    <script type="text/javascript" src="JS/jQuery.js"></script>
+    <script type="text/javascript">
+        var h = $("#heading");
+        h.css("color","red");
+        h.css({
+            "color":"green",
+            "background-color":"pink",
+            "border-bottom":"1px solid orange"
+        });
+        console.log(h.text());
+        h.text("Xin chao cả lớp");
+        console.log(h.html());
+        h.html("<i>HAHAHA</i>");
+        h.html(h.html()+"<u>T2005e</u>");
+        h.append("<i>Hello word</i>");
+        h.prepend("<i>Hello word</i>");
+        h.addClass("active");
+        h.removeClass("abc");
+        //class
+        var pg =$(".pg");
+        pg.css("color", "orange");
+        var pp = $("p");
+        pp.css("text-transform", "uppercase");
+
+    </script>
+    <script type="text/javascript">
+        function boxOn() {
+            var box = $(".box");
+            // box.show();
+            // box.fadeIn();
+            box.slideDown();
+
+
+        }
+        function boxOff() {
+            var box = $(".box");
+            // box.hide();
+            // box.fadeOut(5000);
+            box.slideUp();
+        }
+        function onOff() {
+            var box = $(".box");
+            // box.toggle();
+            box.fadeToggle(1589);
+            // box.slideToggle(2000);
+        }
+
+        // if(isNaN(m)){
+        //     m = 0;
+        // }else{
+        //     m = m;
+        // }
+        function move() {
+            var box = $(".box");
+            var m= $("input[name=minute]").val();
+            m = parseInt(m);
+            m = isNaN(m)?0:m;
+            // m++;
+            box.animate({
+                "margin-left": m+"px",
+                "margin-top": m+"px",
+            },400)
+        }
+    </script>
+
+</body>
+</html>

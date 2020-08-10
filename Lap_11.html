@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lap 11</title>
+    <link rel="stylesheet" type="text/css" href="css/Lap_11.css"/>
+</head>
+<body>
+<header class="section">
+    <div class="container">
+        <ul class="nav">
+            <li><a href="#" class="item active"  onclick="boDer(this,'home')">Home</a></li>
+            <li><a href="#" class="item"  onclick="boDer(this,'Profile')">Profile</a></li>
+            <li><a href="#" class="item" onclick="boDer(this)">Messages</a></li>
+            <li><a href="#" class="item"  onclick="boDer(this)" onclick="show()">Settings</a></li>
+
+        </ul>
+        <div class="tab-content">
+            <p id="home" class="tab active">This is Home content</p>
+            <p id="Profile" class="tab">This is Profile content</p>
+            <p id="Messages" class="tab">This is Messages content</p>
+            <p id="Settings" class="tab">This is Settings content</p>
+        </div>
+
+    </div>
+</header>
+<script type="text/javascript">
+    function boDer(e) {
+        var d = document.getElementsByTagName('li');
+        for(var f of d){
+            f.style.border = 'none';
+        }
+        e.style.border = '1px solid #bac3cc';
+        e.style.borderBottom = '1px solid red';
+        // var h = document.getElementsByClassName('top');
+        // for(var e of h){
+        //     e.style.borderBottom = 'none';
+        // }
+
+    }
+    function show() {
+        var q = document.getElementsByTagName('p');
+        for(var x of q){
+            x.style.display = 'none';
+        }
+    }
+</script>
+</body>
+</html>

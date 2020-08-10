@@ -95,6 +95,7 @@ body{
     width: 100%;
     padding: 30px;
     /*margin-bottom: 15px;*/
+    opacity: 0%;
 }
 .tweet h2{
     font-size: 20px;

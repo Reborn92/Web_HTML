@@ -48,3 +48,9 @@ input[type="text"] {
     outline:none;
     padding: 12px 14px;
 }
+input[type="button"] {
+    width: 130px;
+    box-sizing: border-box;
+    outline: none;
+    padding: 12px 14px;
+}

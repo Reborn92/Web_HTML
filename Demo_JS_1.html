@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo JS</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // day laf comment code
+        // // cach 1: Nhúng thẳng code JS vào đây
+        // alert("trang nay khong danh cho nguoi duoi 18 tuoi");
+        // // var v = confirm("ban co chac chan muon di tiep khong");
+        // // console.log(v);
+        // var r = Math.random()*100;
+        // r = parseInt(r);
+        // do{
+        //     var p = prompt("Nhap vao con so may man trong khoang  0 - 99 cua ban");
+        //     p = parseInt(p);
+        // }while(isNaN(p) || p>100 || p<0);
+        // if(p==r){
+        //     alert("Chuc mung ban da trung 100 ty");
+        // }else{
+        //     alert("Chuc ban may man lan sau");
+        // }
+        // console.log(r);
+        // alert, prom, comfirm
+
+        // setTimeout(function () {
+        //     alert(" Cho 3s moi thay xuat hien");
+        //
+        // },3000);
+
+        setTimeout(function () {
+
+        },1110);
+
+        var std = setInterval(function () {
+            var a = Math.random()*6+1;
+            a = parseInt(a);
+            console.log(a);
+            var b = Math.random()*6+1;
+            b = parseInt(b);
+            console.log(b);
+            var c = Math.random()*6+1;
+            c = parseInt(c);
+            console.log(c);
+            var d = a+b+c;
+            do {
+                var p = prompt("Tai la 0 va xiu la 1");
+                p = parseInt(p);
+            }while(isNaN(p) || p <0 || p>1);
+            if(p==0 && d<10){
+                alert("Ban da dat trung");
+                clearInterval(std);
+            }else if(p==1 && d>10){
+                alert("Ban da dat trung");
+                clearInterval(std);
+            }else{
+                alert("Bye");
+            };
+        },3000);
+
+
+
+        // cach 2: Dùng file ngoại vi mẫu ở dưới
+    </script>
+    <script type="text/javascript" src="JS/Demo_JS_1.js"></script>
+</body>
+</html>

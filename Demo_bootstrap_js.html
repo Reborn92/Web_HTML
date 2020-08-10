@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo bootstrap JS</title>
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap_3.3.7/css/bootstrap.css"/>
+    <link rel="stylesheet" href="libs/nivoslider/themes/default/default.css"/>
+    <link rel="stylesheet" href="libs/nivoslider/nivo-slider.css"/>
+</head>
+<body>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Login
+    </button>
+    <section class="section">
+        <div class=" theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="imgs/nivoslider/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+                <img src="imgs/nivoslider/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" />
+                <img src="imgs/nivoslider/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                <img src="imgs/nivoslider/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+            </div>
+        </div>
+        <div class="container">
+
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <form method="get" action="#">
+                        <div class="form-group">
+                            <label>User Name</label>
+                            <input class="form-control" name="username" type="text" placeholder="User Name"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input class="form-control" name="username" type="text" placeholder="Password.. "/>
+                        </div>
+                        <div class="form-group">
+                            <label>Role</label>
+                            <select class="form-control" name="role">
+                                <option value="123">Admin</option>
+                                <option value="abc">User</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-danger">Submit</button>
+                            <button type="submit" class="btn btn-success">Submit</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-info">Submit</button>
+                            <button type="submit" class="btn btn-warning">Submit</button>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown trigger
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dLabel">
+            <li>Home</li>
+            <li>Profile</li>
+            <li>Messages</li>
+            <li>Settings</li>
+        </ul>
+
+
+
+        <div>
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">...</div>
+                <div role="tabpanel" class="tab-pane" id="profile">...</div>
+                <div role="tabpanel" class="tab-pane" id="messages">...</div>
+                <div role="tabpanel" class="tab-pane" id="settings">...</div>
+            </div>
+
+        </div>
+    </div>
+
+
+        <script type="text/javascript" src="JS/jQuery.js"></script>
+        <script type="text/javascript" src="libs/bootstrap_3.3.7/js/bootstrap.js"></script>
+        <script type="text/javascript" src="libs/nivoslider/jquery.nivo.slider.js"></script>
+        <script type="text/javascript">
+                $('#slider').nivoSlider();
+        </script>
+
+//NivoSlider dung lam anh trang chu
+//owlCarousel tao thanh cac khung truot duoc, tuy chinh san cho ca mobile
+
+    <head>
+        <style>
+            /* Set the size of the div element that contains the map */
+            #map {
+                height: 500px;  /* The height is 400 pixels */
+                width: 600px;  /* The width is the width of the web page */
+            }
+        </style>
+    </head>
+    <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = {lat: 21.0231761, lng: 105.8247593};
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 16, center: uluru});
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({position: uluru, map: map, label:{
+                text: "Lớp T2005E",
+                color: "green"
+            }});
+        }
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaj0mHlR-keu-9hsR6d-gB0L9BclG04rk&callback=initMap">
+    </script>
+    </body>
+</body>
+</html>

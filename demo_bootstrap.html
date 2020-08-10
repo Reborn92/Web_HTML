@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap_3.3.7/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/demo_bootstrap.css"/>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="content col-md-6">
+                <table class="table table-bordered table-hover table-striped">
+                    <thead>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </thead>
+                    <tbody class="text-justify text-capitalize text-nowrap">
+                        <tr class="warning">
+                            <td>1</td>
+                            <td class="text-warning">Nguyễn Văn An</td>
+                            <td>Anh12@gmail.com</td>
+                        </tr>
+                        <tr class="success">
+                            <td>2</td>
+                            <td>Nguyễn Văn Bình</td>
+                            <td>Binh123@gmail.com</td>
+                        </tr>
+                        <tr class="danger">
+                            <td>3</td>
+                            <td>Nguyễn Văn Cường</td>
+                            <td>Cường1992@gmail.com</td>
+                        </tr>
+                        <tr class="info">
+                            <td>4</td>
+                            <td>Nguyễn Văn Dương</td>
+                            <td>Duong182@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <form method="get" action="#">
+                    <div class="form-group">
+                        <label>User Name</label>
+                        <input class="form-control" name="username" type="text" placeholder="User Name"/>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input class="form-control" name="username" type="text" placeholder="Password.. "/>
+                    </div>
+                    <div class="form-group">
+                        <label>Role</label>
+                       <select class="form-control" name="role">
+                           <option value="123">Admin</option>
+                           <option value="abc">User</option>
+                       </select>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-info">Submit</button>
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                        <button type="submit" class="btn btn-default    ">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 7</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var randomNumbers = [];
+        do{
+            var r = parseInt(Math.random()*100);
+            if(!randomNumbers.includes(r,0)) {
+                randomNumbers.push(r);
+                console.log(r);
+            }
+        }while (randomNumbers.length<5)
+        var chooseNumber = [];
+        do{
+            var c = prompt("Chon 1 so may man thu " +(chooseNumber.length+1));
+            c = parseInt(c);
+            if(!chooseNumber.includes(c,0) && c>=0 && c<100 && !isNaN(c)){
+                chooseNumber.push(c);
+                console.log(c);
+            }
+        }while(chooseNumber.length<5);
+        var count = 0;
+        chooseNumber.map(function(e) {
+            if(randomNumbers.includes(e,0)){
+                count ++;
+            }
+        });
+        console.log(count);
+        if(count>=5){
+            alert("Ban da trung jackpot 100 ty");
+        }else if(count>=4){
+            alert("Ban da trung giai 30 trieu");
+        }else if(count>=3){
+            alert("Ban da trung giai thuong 1 trieu");
+        }else{
+            alert("Chuc ban may man lan sau");
+        }
+    </script>
+</body>
+</html>

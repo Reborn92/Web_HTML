@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab s10</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="libs/fontawesome/css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="css/laps10.css"/>
+</head>
+<body>
+<header class="section">
+    <div class="container">
+        <div id="cats">
+
+<!--        <a href="#">-->
+<!--            <div class="box">-->
+<!--                <div class="img">-->
+<!--                    <img src="imgs/products/dien-thoai.png"/>-->
+<!--                </div>-->
+<!--                <p>Điện thoại</p>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--        <a href="#">-->
+<!--            <div class="box">-->
+<!--                <div class="img">-->
+<!--                    <img src="imgs/products/laptop.png">-->
+<!--                </div>-->
+<!--                <p> Lap top </p>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--        <a href="#">-->
+<!--            <div class="box">-->
+<!--                <div class="img">-->
+<!--                    <img src="imgs/products/apple.png"/>-->
+<!--                </div>-->
+<!--                <p> Apple </p>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--        <a href="#">-->
+<!--            <div class="box">-->
+<!--                <div class="img">-->
+<!--                    <img src="imgs/products/tablet.png"/>-->
+<!--                </div>-->
+<!--                <p>Máy tính bảng</p>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--        <a href="#">-->
+<!--            <div class="box">-->
+<!--                <div class="img">-->
+<!--                    <img src="imgs/products/smart-watch.png"/>-->
+<!--                </div>-->
+<!--                <p>Đồng hồ thông minh</p>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--        <a href="#">-->
+<!--            <div class="box">-->
+<!--                <div class="img">-->
+<!--                    <img src="imgs/products/op-lung.png"/>-->
+<!--                </div>-->
+<!--                <p>Ốp lưng điện thoại</p>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--        <a href="#">-->
+<!--            <div class="box">-->
+<!--                <div class="img">-->
+<!--                    <img src="imgs/products/tai-nghe.png"/>-->
+<!--                </div>-->
+<!--                <p>Tai nghe</p>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--        <a href="#">-->
+<!--            <div class="box">-->
+<!--                <div class="img">-->
+<!--                    <img src="imgs/products/the-nho.png">-->
+<!--                </div>-->
+<!--                <p> Thẻ nhớ</p>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--        <a href="#">-->
+<!--            <div class="box">-->
+<!--                <div class="img">-->
+<!--                    <img src="imgs/products/loa-nghe-nhac.png"/>-->
+<!--                </div>-->
+<!--                <p>Loa nghe nhac</p>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--        <a href="#">-->
+<!--            <div class="box">-->
+<!--                <div class="img">-->
+<!--                    <img src="imgs/products/cap-sac.png"/>-->
+<!--                </div>-->
+<!--                <p>Sạc - cáp</p>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--        <a href="#">-->
+<!--            <div class="box">-->
+<!--                <div class="img">-->
+<!--                    <img src="imgs/products/may-tinh-de-ban.png"/>-->
+<!--                </div>-->
+<!--                <p>Máy tính để bàn</p>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--        <a href="#">-->
+<!--            <div class="box">-->
+<!--                <div class="img">-->
+<!--                    <img src="imgs/products/may-in.png"/>-->
+<!--                </div>-->
+<!--                <p>Máy in</p>-->
+<!--            </div>-->
+<!--        </a>-->
+        </div>
+    </div>
+</header>
+    <script type="text/javascript">
+
+        var cats = [
+            {
+                name: "Điện thoại",
+                image: "imgs/products/dien-thoai.png",
+                link: "dien-thoại.html",
+            },
+            {
+                name: "Laptop",
+                image: "imgs/products/laptop.png",
+                link: "laptop.html",
+            },
+            {
+                name: "Apple",
+                image: "imgs/products/apple.png",
+                link: "apple.html",
+            },
+            {
+                name: "Máy tính bảng",
+                image: "imgs/products/tablet.png",
+                link: "tablet.html",
+            },
+            {
+                name: "Đồng hồ thông minh",
+                image: "imgs/products/smart-watch.png",
+                link: "smart-watch.html",
+            },
+            {
+                name: "Ốp lưng điện thoại",
+                image: "imgs/products/op-lung.png",
+                link: "op-lung.html",
+            },  {
+                name: "Tai nghe",
+                image: "imgs/products/tai-nghe.png",
+                link: "tai-nghe.html",
+            },
+            {
+                name: "Thẻ nhớ",
+                image: "imgs/products/the-nho.png",
+                link: "the-nho.html",
+            },
+            {
+                name: "Loa nghe nhạc",
+                image: "imgs/products/loa-nghe-nhac.png",
+                link: "loa-nghe-nhac.html",
+            },
+            {
+                name: "Sạc - cáp",
+                image: "imgs/products/cap-sac.png",
+                link: "cap-sac.html",
+            },
+            {
+                name: "Máy tính để bàn",
+                image: "imgs/products/may-tinh-de-ban.png",
+                link: "may-tinh-de-ban.html",
+            },  {
+                name: "Máy in",
+                image: "imgs/products/may-in.png",
+                link: "may-in.html",
+            },
+        ]
+    cats.map(function (c) {
+        var a_html = " <a href=\""+c.link+"\">\n" +
+            "            <div class=\"box\">\n" +
+            "                <div class=\"img\">\n" +
+            "                    <img src=\""+c.image+"\"/>\n" +
+            "                </div>\n" +
+            "                <p>"+c.name+"</p>\n" +
+            "            </div>\n" +
+            "        </a>"
+        document.getElementById("cats").innerHTML += a_html;
+    })
+
+
+    </script>
+
+</body>
+</html>
